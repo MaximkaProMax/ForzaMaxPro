@@ -68,7 +68,7 @@ public class EnemyAI : AI
         RaycastHit frontHit;
 
         // Определите дистанцию для лучей
-        float rayDistance = 15.0f;
+        float rayDistance = 5.0f;
 
         // Нарисуйте лучи для визуализации в редакторе Unity
         Debug.DrawRay(leftRay.origin, leftRay.direction * rayDistance, Color.red);
@@ -102,8 +102,8 @@ public class EnemyAI : AI
             // Если цель находится слева от автомобиля, поверните влево
             if (crossProduct < 0)
             {
-                frontLeftCollider.steerAngle -= Mathf.Lerp(-frontLeftCollider.steerAngle, maxSteeringAngle, Time.deltaTime);
-                frontRightCollider.steerAngle -= Mathf.Lerp(-frontRightCollider.steerAngle, maxSteeringAngle, Time.deltaTime);
+                frontLeftCollider.steerAngle -= Mathf.Lerp(frontLeftCollider.steerAngle, maxSteeringAngle, Time.deltaTime);
+                frontRightCollider.steerAngle -= Mathf.Lerp(frontRightCollider.steerAngle, maxSteeringAngle, Time.deltaTime);
             }
             // Если цель находится справа от автомобиля, поверните вправо
             else

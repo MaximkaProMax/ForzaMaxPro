@@ -3,14 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Fence
-  - Car
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Street
+  - 
   - Water
   - UI
   - 

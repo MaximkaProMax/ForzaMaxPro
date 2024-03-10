@@ -142,11 +142,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1410687668340831009, guid: e0cc1e4875da81c4a8a657b973698488, type: 3}
---- !u!1 &27387957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8557483882129953539, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!146 &27387959 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 8615825633152659129, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
@@ -442,93 +437,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prometheus 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 543450653621877418}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: useSounds
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: useEffects
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: RLWTireSkid
-      value: 
-      objectReference: {fileID: 827584961}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: RRWTireSkid
-      value: 
-      objectReference: {fileID: 737784567}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: carSpeedText
-      value: 
-      objectReference: {fileID: 677710026}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: rearLeftMesh
-      value: 
-      objectReference: {fileID: 27387957}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: frontLeftMesh
-      value: 
-      objectReference: {fileID: 2087712455}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: rearRightMesh
-      value: 
-      objectReference: {fileID: 1334309987}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: carEngineSound
-      value: 
-      objectReference: {fileID: 511879847}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: frontRightMesh
-      value: 
-      objectReference: {fileID: 201665731}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: rearLeftCollider
-      value: 
-      objectReference: {fileID: 27387959}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: tireScreechSound
-      value: 
-      objectReference: {fileID: 66484012}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: RLWParticleSystem
-      value: 
-      objectReference: {fileID: 125780963}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: RRWParticleSystem
-      value: 
-      objectReference: {fileID: 1459733017}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: frontLeftCollider
-      value: 
-      objectReference: {fileID: 2087712457}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: rearRightCollider
-      value: 
-      objectReference: {fileID: 1334309988}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: frontRightCollider
-      value: 
-      objectReference: {fileID: 201665733}
-    - target: {fileID: 4420421955645344684, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-      propertyPath: targetDistanceThreshold
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5135156708204615449, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
---- !u!198 &125780963 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4402756320724654539, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &160066912
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,11 +653,6 @@ Transform:
   m_Father: {fileID: 799935777}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &201665731 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1432273449035489855, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!146 &201665733 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 7877667524431639919, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
@@ -1292,6 +1201,11 @@ MeshFilter:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8645027982025111598, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
   m_PrefabInstance: {fileID: 112984338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &361760709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9001759275607529968, guid: e0cc1e4875da81c4a8a657b973698488, type: 3}
+  m_PrefabInstance: {fileID: 1676411279}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &377131606
 PrefabInstance:
@@ -2172,11 +2086,11 @@ MonoBehaviour:
   NavMeshLayers:
   - Roads
   MaxSteeringAngle: 45
-  MaxRPM: 150
+  MaxRPM: 800
   ShowGizmos: 1
   Debugger: 0
   Patrol: 1
-  CustomDestination: {fileID: 0}
+  CustomDestination: {fileID: 361760709}
   move: 0
 --- !u!1 &689600284
 GameObject:
@@ -2402,11 +2316,6 @@ MonoBehaviour:
   m_Area: 3
   m_IgnoreFromBuild: 0
   m_AffectedAgents: 00000000
---- !u!96 &737784567 stripped
-TrailRenderer:
-  m_CorrespondingSourceObject: {fileID: 7045468751210077382, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &799935776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,11 +2387,6 @@ MonoBehaviour:
   m_Area: 3
   m_IgnoreFromBuild: 0
   m_AffectedAgents: 00000000
---- !u!96 &827584961 stripped
-TrailRenderer:
-  m_CorrespondingSourceObject: {fileID: 7045468751846977024, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &912192150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2699983780271061893, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
@@ -3649,11 +3553,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331393349}
   m_Mesh: {fileID: 3613567641014311022, guid: aa35326e084c5774b9fea1733afca70f, type: 3}
---- !u!1 &1334309987 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1025541434198643357, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!146 &1334309988 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 8706808774334851022, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
@@ -4133,11 +4032,6 @@ MeshFilter:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5d038f50c5ad1a14ab5fd91edebd5916, type: 3}
   m_PrefabInstance: {fileID: 2111524360}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1459733017 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4402756320999286479, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1469105319
 GameObject:
@@ -5948,11 +5842,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071016381}
   m_Mesh: {fileID: 3613567641014311022, guid: aa35326e084c5774b9fea1733afca70f, type: 3}
---- !u!1 &2087712455 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2001459980240962088, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}
-  m_PrefabInstance: {fileID: 112984338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!146 &2087712457 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 2239677824950174677, guid: 7163f09dc2da2224fa34a4d7658a293c, type: 3}

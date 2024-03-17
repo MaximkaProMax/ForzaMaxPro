@@ -348,7 +348,7 @@ public class CarAI : MonoBehaviour
                     else
                         Gizmos.color = Color.green;
                 }
-                Gizmos.DrawWireSphere(waypoints[i], 2f);
+                Gizmos.DrawWireSphere(waypoints[i], 20f);
             }
             CalculateFOV();
         }
